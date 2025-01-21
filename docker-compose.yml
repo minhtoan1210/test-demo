@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  demo_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5011:5011 # Mở cổng 5009 trên container để truy cập ứng dụng
+    env_file:
+      - .env # Đưa file .env vào container
+    volumes:
+      - .:/app # Gắn kết mã nguồn vào container để hỗ trợ dev
+    command: npm run dev # Chạy lệnh khởi động ứng dụng
