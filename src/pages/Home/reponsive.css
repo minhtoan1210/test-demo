@@ -1,0 +1,46 @@
+@media screen and (max-width: 1240px) {
+    .Titre-Bloc-1 .title::before {
+        width: 28rem;
+    }
+
+    .Titre-Bloc-1 .title::after {
+        width: 28rem;
+    }
+
+    .Titre-Bloc-2 .title::before {
+        width: 28rem;
+    }
+
+    .Titre-Bloc-2 .title::after {
+        width: 28rem;
+    }
+
+    .Titre-Bloc-6 .sub-item .item {
+        width: 26.2rem;
+    }
+
+    .Titre-Bloc-3 .title::before {
+        width: 18rem;
+    }
+
+    .Titre-Bloc-3 .title::before {
+        width: 18rem;
+        right: 6%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .fc-day-number {
+        width: 10.7rem;
+    }
+
+    .right-header {
+        margin-left: 13%;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .fc-day-number {
+        width: 10.7rem;
+    }
+}
