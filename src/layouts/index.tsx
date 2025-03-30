@@ -6,10 +6,8 @@ interface Props {
 function MainLayout({ children }: Props) {
   return (
     <div>
-      {/* <Header /> */}
       {children}
       <Outlet />
-      {/* <Footer /> */}
     </div>
   );
 }
